@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nLinkv clLinkssNLinkme='heLinkder'>
+        <nav className='header'>
             <img src="" alt="" />
             <div>
                 <Link to="/">Home</Link>
@@ -13,7 +13,7 @@ const Header = () => {
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/about">About</Link>
             </div>
-        </nLinkv>
+        </nav>
     );
 };
 
