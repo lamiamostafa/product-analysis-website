@@ -43,7 +43,7 @@ const Dashboard = () => {
 
 
     return (
-        <div>
+        <div className="d-flex mt-5">
             <div>
                 <LineChart width={500}
                     height={300}
