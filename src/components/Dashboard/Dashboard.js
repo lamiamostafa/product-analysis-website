@@ -56,12 +56,12 @@ const Dashboard = () => {
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="sell" />
-                    <YAxis dataKey="revenue" />
+                    <XAxis dataKey="month" />
+                    <YAxis dataKey="sell" />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="month" stroke="#8884d8" activeDot={{ r: 8 }} />
-                    <Line type="monotone" dataKey="investment" stroke="#82ca9d" />
+                    <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }} />
+                    {/* <Line type="monotone" dataKey="revenue" stroke="#82ca9d" /> */}
                 </LineChart>
             </div>
             <div>
@@ -77,12 +77,12 @@ const Dashboard = () => {
                         }}
                     >
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="sell" />
-                        <YAxis dataKey="revenue" />
+                        <XAxis dataKey="month" />
+                        <YAxis dataKey="investment" />
                         <Tooltip />
                         <Legend />
-                        <Bar dataKey="month" fill="#8884d8" />
-                        <Bar dataKey="investment" fill="#82ca9d" />
+                        <Bar dataKey="investment" fill="#8884d8" />
+                        <Bar dataKey="revenue" fill="#82ca9d" />
                     </BarChart>
                 </div>
             </div>
