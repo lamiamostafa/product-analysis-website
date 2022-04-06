@@ -2,14 +2,12 @@ import React from 'react';
 import './ReviewItem.css';
 
 const ReviewItem = (props) => {
-    const { name, img, comment, ratings } = props.product;
+    const { cname, comment, ratings } = props.product;
     return (
         <div className="review-item">
-            <div>
-                <img src={img} alt="" />
-            </div>
+
             <div className="review-item-details">
-                <p>{name}</p>
+                <p>{cname}</p>
                 <p>FeedBack: {comment}</p>
                 <p>Ratings:{ratings} </p>
 

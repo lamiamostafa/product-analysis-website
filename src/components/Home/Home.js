@@ -15,14 +15,14 @@ const Home = () => {
             <div className="banner ">
                 <div className="banner-desc" >
                     <h1>Falcon Shoes</h1>
-                    <p className="ms-4">It is a long established fact that a reader will be distracted by the readable content of the page when looking its layout.</p>
+                    <p className="banner-details ms-4">It is a long established fact that a reader will be distracted by the readable content of the page when looking its layout.</p>
                     <Button variant="primary">Shop Now</Button>
                 </div>
                 <div >
                     <img className="banner-image" src={banner} alt="" />
                 </div>
             </div>
-            <div>
+            <div >
                 <h1 className="text-center">Customer review</h1>
                 {
                     products.slice(0, 3).map(product => <ReviewItem
@@ -32,7 +32,7 @@ const Home = () => {
 
                     </ReviewItem>)
                 }
-                <button onClick={() => navigate('/review')}>See All Reviews</button>
+                <button className="mt-4 btn btn-primary mb-5" onClick={() => navigate('/review')}>See All Reviews</button>
             </div>
 
 

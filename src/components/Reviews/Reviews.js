@@ -1,6 +1,7 @@
 import React from 'react';
 import useProducts from '../../hooks/useProduct'
 import ReviewItem from '../ReviewItem/ReviewItem';
+import './Reviews.css';
 
 const Reviews = () => {
     const [products, setProducts] = useProducts([]);

@@ -5,11 +5,14 @@
     margin-top: 21px;
     width:571px;
     display:flex;
+    margin-left:400px;
+    
    
 }
-.review-item img{
-    width:91px;
+.review-item-details{
+    margin-left:120px;
 }
+
 .review-item-details p{
     margin:0;
     padding-left: 10px;
