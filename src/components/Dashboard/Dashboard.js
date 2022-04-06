@@ -60,8 +60,8 @@ const Dashboard = () => {
                     <YAxis dataKey="revenue" />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
-                    <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                    <Line type="monotone" dataKey="month" stroke="#8884d8" activeDot={{ r: 8 }} />
+                    <Line type="monotone" dataKey="investment" stroke="#82ca9d" />
                 </LineChart>
             </div>
             <div>
@@ -81,8 +81,8 @@ const Dashboard = () => {
                         <YAxis dataKey="revenue" />
                         <Tooltip />
                         <Legend />
-                        <Bar dataKey="pv" fill="#8884d8" />
-                        <Bar dataKey="uv" fill="#82ca9d" />
+                        <Bar dataKey="month" fill="#8884d8" />
+                        <Bar dataKey="investment" fill="#82ca9d" />
                     </BarChart>
                 </div>
             </div>
